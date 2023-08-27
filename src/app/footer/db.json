@@ -1,0 +1,60 @@
+{
+    "produtos": [
+      {
+        "id": 1,
+        "nome": "Notebook Dell Inspiron 3000",
+        "valorVenda": 3.599,
+        "status": false,
+        "descricao": "Trata-se de um notebook com processador Intel Core i5-1035G1 (1.2GHz até 3.6GHz, cache de 6MB, 10ª geração) com memória RAM de 8GB. Com um SSD de 256GB, oferece um uso muito mais rápido e fluido e maior capacidade de resposta, desempenho mais silencioso, além de maior resistência a choques em comparação com as unidades de disco rígido tradicionais. ",
+        "imagem": "assets/img/portfolio/vendas-1.jpg"
+      },
+      {
+        "id": 2,
+        "nome": "Notebook HP 256 G8",
+        "valorVenda": 2.924,
+        "status": false,
+        "descricao": "Conecte-se com o laptop HP 256 com tecnologia poderosa e um chassi simplificado que é fácil de levar a qualquer lugar. Conclua as tarefas de negócios com um processador Intel®[2] e ferramentas de colaboração essenciais.",
+        "imagem": "assets/img/portfolio/vendas-2.jpg"
+      },
+      {
+        "id": 3,
+        "nome": "Notebook Probook x360 435 G7",
+        "valorVenda": 7.376,
+        "status": false,
+        "descricao": "O HP ProBook x360 435 proporciona a potência, segurança e durabilidade que o seu negócio em expansão exige,com um design versátil de 360° que se adapta à sua forma de trabalhar.",
+        "imagem": "assets/img/portfolio/vendas-3.jpg"
+      },
+      {
+        "id": 4,
+        "nome": "MacBook Air 13.3' Laptop",
+        "valorVenda": 9.599,
+        "status": false,
+        "descricao": "Chip M1 projetado pela Apple para um salto gigante no desempenho de CPU, GPU e aprendizado de máquina Vá mais longe do que nunca com até 18 horas de duração da bateria A CPU de 8 núcleos oferece desempenho até 3,5x mais rápido para lidar com projetos mais rápido do que nunca",
+        "imagem": "assets/img/portfolio/vendas-4.jpg"
+      },
+      {
+        "id": 5,
+        "nome": "Macbook Pro Retina Apple 13.3'",
+        "valorVenda": 11.998,
+        "status": false,
+        "descricao": "O MacBook Pro de 13 polegadas* está voando com o chip M1 da Apple. Sua CPU de oito núcleos encara com rapidez fluxos de trabalho complexos em fotografia, programação, edição de vídeo e muito mais. A GPU de oito núcleos dá conta de tarefas com gráficos pesados e roda muito melhor os jogos. O Neural Engine de 16 núcleos aumenta o poder do aprendizado de máquina dos seus apps favoritos. A memória unificada ultrarrápida traz consistência ao desempenho. E a bateria tem o maior tempo de duração em um Mac: até 20 horas**. Por fora, ele continua sendo o notebook profissional mais popular da Apple. Por dentro, mudou e vai mudar tudo. Avisos legais: *Em comparação com a geração anterior. **A duração da bateria varia de acordo com o uso e a configuração.",
+        "imagem": "assets/img/portfolio/vendas-5.jpg"
+      },
+      {
+        "id": 6,
+        "nome": "Desktop HP 280 G5 SFF",
+        "valorVenda": 2.849,
+        "status": false,
+        "descricao": "Realize seu trabalho diário por um preço acessível com o HP 280 de pequeno formato. Obtenha o poder computacional confiável de que você precisa enquanto minimiza o custo total de propriedade: esse é um investimento inteligente.",
+        "imagem": "assets/img/portfolio/vendas-6.jpg"
+      },
+      {
+        "id": 7,
+        "nome": "DESKTOP DELL OPTIPLEX 3080M",
+        "valorVenda": 4.954,
+        "status": false,
+        "descricao": "Desktop comercial de formato micro essencial que oferece a melhor segurança e desempenho da categoria com processadores Intel de 10ª geração.",
+        "imagem": "assets/img/portfolio/vendas-7.jpg"
+      }
+    ]
+  }

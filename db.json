@@ -1,0 +1,45 @@
+{
+  "produtos": [
+    {
+      "id": 1,
+      "nome": "Produto 1",
+      "valor": 10,
+      "status": false,
+      "descricao": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati quaerat porro possimus sed expedita. Aut natus distinctio quisquam, atque culpa, rerum, quas quidem vero libero aperiam impedit fugit possimus laudantium?",
+      "imagem": "assets/img/blog-1.jpg"
+    },
+    {
+      "id": 2,
+      "nome": "Produto 2",
+      "valor": 10,
+      "status": false,
+      "descricao": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati quaerat porro possimus sed expedita. Aut natus distinctio quisquam, atque culpa, rerum, quas quidem vero libero aperiam impedit fugit possimus laudantium?",
+      "imagem": "assets/img/blog-2.jpg"
+    },
+    {
+      "id": 3,
+      "nome": "Produto 3",
+      "valor": 10,
+      "status": false,
+      "descricao": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati quaerat porro possimus sed expedita. Aut natus distinctio quisquam, atque culpa, rerum, quas quidem vero libero aperiam impedit fugit possimus laudantium?",
+      "imagem": "assets/img/blog-3.jpg"
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

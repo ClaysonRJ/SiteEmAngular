@@ -1,0 +1,59 @@
+<!-- ======= Header ======= -->
+<header id="header" class="fixed-top ">
+    <div class="container d-flex align-items-center">
+
+      <h1 class="logo"><a routerLink="/home">Tecno BCW</a></h1>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+      <nav class="nav-menu d-none d-lg-block">
+
+        <ul>
+          <li><a routerLinkActive="active" [routerLink]="['/home']">Home</a></li>
+
+          <li routerLinkActive="active" class="drop-down">
+            <a [routerLink]="['/about']" routerLinkActive="router-link-active">About</a>
+            <ul>
+              <li>
+                <a [routerLink]="['/about']" routerLinkActive="router-link-active">About Us</a>
+              </li>
+              <li>
+                <a [routerLink]="['/team']" routerLinkActive="router-link-active">Team</a>
+              </li>
+              <li>
+                <a [routerLink]="['/testimonials']" routerLinkActive="router-link-active">Testimonials</a>
+              </li>
+            </ul>
+          </li>
+          <li class="drop-down">
+            <a [routerLink]="['/produto-vendas']" routerLinkActive="router-link-active">Vendas</a>
+            <ul>
+              <li>
+                <a [routerLink]="['/notebooks']" routerLinkActive="router-link-active">Notebooks</a>
+              </li>
+              <li>
+                <a [routerLink]="['/desktops']" routerLinkActive="router-link-active">Desktops</a>
+              </li>
+              <li>
+                <a [routerLink]="['/smartphones']" routerLinkActive="router-link-active">Smartphones</a>
+              </li>
+            </ul>
+          </li>
+
+          <li><a routerLinkActive="active" [routerLink]="['/servicos']">Serviços</a></li>
+          <li><a routerLinkActive="active" [routerLink]="['/portfolio']">Portfólio</a></li>
+          <li><a routerLinkActive="active" [routerLink]="['/blog']">Blog</a></li>
+          <li><a routerLinkActive="active" [routerLink]="['/contact']">Contato</a></li>
+          <li><a routerLinkActive="active" [routerLink]="['/clients']">Clientes</a></li>
+        <li *ngIf="mostrarMenu"><a routerLinkActive="active" routerLink="/perfil">Perfil</a></li>
+
+
+
+        </ul>
+
+      </nav><!-- .nav-menu -->
+
+      <a routerLink="/login" class="get-started-btn ml-auto">Login</a>
+
+    </div>
+  </header><!-- End Header -->
